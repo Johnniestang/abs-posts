@@ -1,0 +1,12 @@
+{
+  "db": {
+    "connection": "mongodb+srv://abs-admin:abs-admin@bnr-posts.5p7ly.mongodb.net/ABS?retryWrites=true&w=majority"
+  },
+  "db_old": {
+    "connection": "mongodb+srv://nerd1:nerd1@bnr-posts.5p7ly.mongodb.net/posts?retryWrites=true&w=majority"
+  },
+  "token": {
+    "jwtSecret": "nerdsrule",
+    "expires": 36000000
+  }
+}
