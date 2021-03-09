@@ -13,7 +13,6 @@ const conn = async () => {
     console.log("DB connection made");
   } catch (err) {
     console.log("DB Connection failed: ", err.message);
-    // console.error(err.message);
     process.exit(1);
   }
 };
