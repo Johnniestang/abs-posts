@@ -1,5 +1,5 @@
 {
-  "_comment": "These valuse, server, secret, token exiration will change for production. Left the same here.",
+  "_comment": "These values, server, secret, token exiration will change for production. Left the same here.",
   "env": "Production",
   "db": {
     "connection": "mongodb+srv://abs-admin:abs-admin@bnr-posts.5p7ly.mongodb.net/ABS?retryWrites=true&w=majority"
