@@ -10,7 +10,7 @@ const schema = joi.object({
 });
 
 // Route: GET api/auth
-// Descr: Returns an authenicated user
+// Descr: Returns an authenticated user
 exports.getAuthUser = async (req, res, next) => {
   try {
     const user = await User.findById(req.user.id);
